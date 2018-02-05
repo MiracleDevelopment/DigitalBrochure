@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/touch_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ipati.dev.brochure.VideoBreaker">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/exo_view_player_breaker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+</LinearLayout>
